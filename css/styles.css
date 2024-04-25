@@ -63,6 +63,8 @@ img[alt="myPicture"]{
     border: 1rem solid yellow;
 }
 
+/*if there is no content property, nothing will be displayed*/
+/*the content can be the url of an image*/
 #image-box::after{
     content: 'This is the content after';
     background-color: green;
@@ -76,3 +78,7 @@ div > li{
 #hobbies{
     margin: 2rem;
 }
+
+/* div{
+  padding-block : ;
+} */
